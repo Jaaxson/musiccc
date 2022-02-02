@@ -56,7 +56,7 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-@Client.on_message(command(["vplay"," ","", f"vplay@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["vplay","شغيل فديو","فديو", f"vplay@{BOT_USERNAME}"]) & other_filters)
 async def vplay(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
@@ -66,10 +66,10 @@ async def vplay(c: Client, m: Message):
                 InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
                 InlineKeyboardButton(text="• اغلاق", callback_data="cls"),
               ],
-              [InlineKeyboardButton("", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
-              InlineKeyboardButton("", url=f"t.me/XxvprxX"),
+              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمبير)", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
+              InlineKeyboardButton("source vamBIR", url=f"t.me/XxvprxX"),
                 ],
-              [InlineKeyboardButton("   ", url=f"http://t.me/VPllllllbot?startgroup=new"),              
+              [InlineKeyboardButton("➕✔️اضفط لاضافه البوت لمجموعتك✔️➕", url=f"http://t.me/VPllllllbot?startgroup=new"),              
             ]
         ]
     )
