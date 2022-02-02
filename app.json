@@ -1,16 +1,16 @@
 {
-    "name": "Video x Music Stream Bot",
+    "name": "VamBIR musiccc",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/19d68d531fd2f6f96e368.jpg",
+    "logo": "https://telegra.ph/file/ba8a0e436f12f8d037ca1.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/BANDA1M",
-    "repository": "https://github.com/mostafaaziza/alazizy",
-    "success_url": "https://t.me/hama_refaat",
+    "website": "https://t.me/XxvprxX",
+    "repository": "https://github.com/VamBIR/musicc",
+    "success_url": "https://t.me/XxlllllllllllllllllllllllllllxX",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
