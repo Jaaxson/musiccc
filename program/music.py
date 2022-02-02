@@ -212,7 +212,7 @@ async def play(c: Client, m: Message):
                                 )
                             except Exception as ep:
                                 await suhu.delete()
-                                await m.reply_text(f"خطاء: `{ep}`")
+                                await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر لكي اعمل @XxVPlllllllllxX : `{ep}`")
 
     else:
         if len(m.command) < 2:
@@ -263,7 +263,7 @@ async def play(c: Client, m: Message):
                             )
                         except Exception as ep:
                             await suhu.delete()
-                            await m.reply_text(f"خطاء: `{ep}`")
+                            await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر عنه لكي اعمل @XxVPlllllllllxX : `{ep}`")
 
 
 # stream is used for live streaming only
@@ -385,4 +385,4 @@ async def stream(c: Client, m: Message):
                     )
                 except Exception as ep:
                     await suhu.delete()
-                    await m.reply_text(f"خطاء: `{ep}`")
+                    await m.reply_text(f"خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر لكي اعمل @XxVPlllllllllxX : `{ep}`")
