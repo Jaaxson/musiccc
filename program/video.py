@@ -236,7 +236,7 @@ async def vplay(c: Client, m: Message):
                                 )
                             except Exception as ep:
                                 await loser.delete()
-                                await m.reply_text(f"🚫 error: `{ep}`")
+                                await m.reply_text(f"🚫 error قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر عنه @XxVPlllllllllxX : `{ep}`")
 
     else:
         if len(m.command) < 2:
@@ -291,7 +291,7 @@ async def vplay(c: Client, m: Message):
                             )
                         except Exception as ep:
                             await loser.delete()
-                            await m.reply_text(f"🚫 خطاء: `{ep}`")
+                            await m.reply_text(f"🚫 خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر عنه @XxVPlllllllllxX : `{ep}`")
 
 
 @Client.on_message(command(["vstream", f"vstream@{BOT_USERNAME}"]) & other_filters)
@@ -304,8 +304,8 @@ async def vstream(c: Client, m: Message):
                 InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
                 InlineKeyboardButton(text="• اغلاق", callback_data="cls"),
               ],
-              [InlineKeyboardButton("", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
-              InlineKeyboardButton("", url=f"t.me/XxvprxX"),
+              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمبير)", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
+              InlineKeyboardButton("source🌀", url=f"t.me/XxvprxX"),
             ]
         ]
     )
@@ -433,4 +433,4 @@ async def vstream(c: Client, m: Message):
                     )
                 except Exception as ep:
                     await loser.delete()
-                    await m.reply_text(f"🚫 خطاء: `{ep}`")
+                    await m.reply_text(f"🚫 خطاء قام احد مشرفي المجموعه بحظر الحساب المساعد برجاء رفع الحظر لكي اعمل @XxVPlllllllllxX : `{ep}`")
