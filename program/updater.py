@@ -63,7 +63,7 @@ async def update_repo(_, message: Message):
     await msg.edit("bot is **up-to-date** with [main](https://github.com/VamBIR/musiccc)", disable_web_page_preview=True)
 
 
-@Client.on_message(command(["restart","عاده تشغيل", f"restart@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["restart","نصيب", f"restart@{BOT_USERNAME}"]) & ~filters.edited)
 @sudo_users_only
 async def restart_bot(_, message: Message):
     msg = await message.reply("`restarting bot...`")
