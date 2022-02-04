@@ -63,13 +63,13 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• اغلاق", callback_data="cls"),
+                InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
+                InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
               ],
-              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمبير)", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
-              InlineKeyboardButton("source vamBIR", url=f"t.me/XxvprxX"),
+              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
+              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/XxvprxX"),
                 ],
-              [InlineKeyboardButton("➕✔️اضفط لاضافه البوت لمجموعتك✔️➕", url=f"http://t.me/VPllllllbot?startgroup=new"),              
+              [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"http://t.me/VPllllllbot?startgroup=new"),              
             ]
         ]
     )
@@ -301,11 +301,13 @@ async def vstream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• اغلاق", callback_data="cls"),
+                InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
+                InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
               ],
-              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمبير)", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
-              InlineKeyboardButton("source🌀", url=f"t.me/XxvprxX"),
+              [InlineKeyboardButton("ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸", url=f"t.me/XxlllllllllllllllllllllllllllxX"),
+              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/XxvprxX"),
+              ],
+              [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"http://t.me/VPllllllbot?startgroup=new"),               
             ]
         ]
     )
