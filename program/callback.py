@@ -35,7 +35,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("🌀الاوامــر الكامله المعربــه🌀", callback_data="cbvamp")],                
                 [
                     InlineKeyboardButton("🕹الاوامــــر🕹", callback_data="cbcmds"),
-                    InlineKeyboardButton("👨🏼‍💻اوامــر المطــور👨🏼‍💻", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨🏼‍💻الــمطــور👨🏼‍💻", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
