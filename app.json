@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/XxvprxX",
-    "repository": "https://github.com/VamBIR/musicc",
+    "repository": "https://github.com/VamBIR/musiccc",
     "success_url": "https://t.me/XxlllllllllllllllllllllllllllxX",
     "env": {
         "API_ID": {
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "BANDA2M"
+            "value": "XxllllllllllllllllllllllllllxX"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "BANDA1M"
+            "value": "XxvprxX"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "php_7"
+            "value": "XxlllllllllllllllllllllllllllxX"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "«𝐕𝘼𝙈𝘽𝙄𝙍🔊𝙈𝙐𝙎𝙄𝘾»"
+            "value": "ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧"
         }
     },
     "addons": [],
