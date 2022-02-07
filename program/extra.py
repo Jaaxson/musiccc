@@ -10,7 +10,7 @@ from driver.database.dbchat import get_served_chats
 from config import BOT_USERNAME as bn
 
 
-@Client.on_message(command(["broadcast", f"broadcast@{bn}"]) & ~filters.edited)
+@Client.on_message(command(["broadcast","ذاعه", f"broadcast@{bn}"]) & ~filters.edited)
 @sudo_users_only
 async def broadcast(c: Client, message: Message):
     if not message.reply_to_message:
@@ -30,7 +30,7 @@ async def broadcast(c: Client, message: Message):
                 sent += 1
             except Exception:
                 pass
-        await message.reply_text(f"✅ Broadcast complete in {sent} Group.")
+        await message.reply_text(f"✅ اكتملت الاذاعه بنجاح in {sent} Group.")
         return
     if len(message.command) < 2:
         await message.reply_text(
@@ -50,10 +50,10 @@ async def broadcast(c: Client, message: Message):
             sent += 1
         except Exception:
             pass
-    await message.reply_text(f"✅ Broadcast complete in {sent} Group.")
+    await message.reply_text(f"✅ اكتملت الاذاعه بنجاح in {sent} Group.")
 
 
-@Client.on_message(command(["broadcast_pin", f"broadcast_pin@{bn}"]) & ~filters.edited)
+@Client.on_message(command(["broadcast_pin","ذاعه_بالتثبيت", f"broadcast_pin@{bn}"]) & ~filters.edited)
 @sudo_users_only
 async def broadcast_pin(c: Client, message: Message):
     if not message.reply_to_message:
@@ -80,7 +80,7 @@ async def broadcast_pin(c: Client, message: Message):
             except Exception:
                 pass
         await message.reply_text(
-            f"✅ Broadcast complete in {sent} Group.\n📌 With the {pin} pins."
+            f"✅ اكتملت الاذاعه بالتثبيت بنجاح in {sent} Group.\n📌 With the {pin} pins."
         )
         return
     if len(message.command) < 2:
@@ -108,5 +108,5 @@ async def broadcast_pin(c: Client, message: Message):
         except Exception:
             pass
     await message.reply_text(
-        f"✅ Broadcast complete in {sent} Group.\n📌 With the {pin} pins."
+        f"✅ اكتملت الاذاعه بالتثبيت بنجاح in {sent} Group.\n📌 With the {pin} pins."
     )
